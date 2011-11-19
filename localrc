@@ -43,3 +43,7 @@ if [[ -z $SSH_CONNECTION ]]; then
 else
   export IS_REMOTE=true
 fi
+
+# sublime text 2
+export EDITOR=/usr/bin/slime
+alias reloadbash=source ~/.bashrc
