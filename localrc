@@ -1,6 +1,10 @@
 #!/bin/bash
 
-# sublime text 2
+
+# Alias
+alias p8="ping 8.8.8.8"
+
+# Sublime Text 2
 export EDITOR=/usr/local/bin/slime
 
 # Ruby
@@ -10,7 +14,7 @@ else
   export RUBYOPT=
 fi
 
-#autojump
+# Autojump
 _autojump() 
 {
         local cur
