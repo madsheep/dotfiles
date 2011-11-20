@@ -16,8 +16,8 @@ Installation is very simple:
 ## TODO
 
 * Sublime Text 2:
-** user Key Bindings
-** user File Settings
+    * user Key Bindings
+    * user File Settings
 
 ## Credits
 
