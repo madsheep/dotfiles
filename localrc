@@ -1,3 +1,15 @@
+#!/bin/bash
+
+# sublime text 2
+export EDITOR=/usr/bin/slime
+
+# Ruby
+if echo $rvm_ruby_version | grep -q '1.9'; then
+  export RUBYOPT='-r openssl'
+else
+  export RUBYOPT=
+fi
+
 #autojump
 _autojump() 
 {
@@ -43,7 +55,3 @@ if [[ -z $SSH_CONNECTION ]]; then
 else
   export IS_REMOTE=true
 fi
-
-# sublime text 2
-export EDITOR=/usr/bin/slime
-alias reloadbash=source ~/.bashrc
