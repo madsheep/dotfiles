@@ -4,6 +4,3 @@
 [submodule "iain-osx_settings"]
 	path = iain-osx_settings
 	url = git://github.com/iain/osx_settings.git
-[submodule "ryanb-dotfiles"]
-	path = ryanb-dotfiles
-	url = git://github.com/ryanb/dotfiles.git
