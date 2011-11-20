@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # sublime text 2
-export EDITOR=/usr/bin/slime
+export EDITOR=/usr/local/bin/slime
 
 # Ruby
 if echo $rvm_ruby_version | grep -q '1.9'; then

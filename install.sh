@@ -49,23 +49,9 @@ fi
 cd $ryanb_dotfiles_dir
 rake install
 
-echo "Cleaning..."
-# Cleanup
-
-cd $mydir
-pwd
-
-cleanup=false
-
-if [[ $cleanup ]]; then
-	cd $ryanb_dotfiles_dir
-	git checkout .
-
-	cd $iain_osx_settings_dir
-	git checkout .
-
-	cd ..
-fi
+sudo echo 'open -a "Sublime Text 2" "$@"' > $mydir/slime
+chmod +x $mydir/slime
+mv $mydir/slime /usr/local/bin/slime
 
 echo ""
 echo "Done!"
