@@ -49,7 +49,7 @@ fi
 cd $ryanb_dotfiles_dir
 rake install
 
-sudo echo 'open -a "Sublime Text 2" "$@"' > $mydir/slime
+echo 'open -a "Sublime Text 2" "$@"' > $mydir/slime
 chmod +x $mydir/slime
 mv $mydir/slime /usr/local/bin/slime
 
