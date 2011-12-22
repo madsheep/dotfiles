@@ -4,7 +4,19 @@
 # Alias
 alias p8="ping 8.8.8.8"
 
+## Rails
+
+alias be="bundle exec"
+alias bi="bundle install"
+alias bu="bundle update"
+alias rs="rails s"
+alias rc="rails c"
+alias ber="bundle exec rspec"
+alias r="rails"
+alias bea="bundle exec autotest"
+
 # Sublime Text 2
+
 export EDITOR=/usr/local/bin/slime
 
 # Ruby
