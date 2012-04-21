@@ -18,11 +18,25 @@ Installation is very simple:
     git submoudle update
     ./install.sh
 
+Or you can just paste it inline:
+
+    git clone git://github.com/lubieniebieski/dotfiles.git; cd dotfiles/; git submodule init; git submoudle update; ./install.sh
+
+### iTerm2
+
+1. Go to iTerm2 -> Preferences -> General Tab.
+2. Check `Load preferences from a user-defined folder or URL`.
+3. In the input below the checkbox, enter `/Users/your_user_name/.dotfiles/iterm2`.
+4. Restart iTerm2
+
+If you would like to use only the color scheme (IR_Black), you can find it under this path `~/.dotfiles/iterm2/IR_Black.itermcolors`
+
 ## TODO
 
 * Sublime Text 2:
-    * user Key Bindings
-    * user File Settings
+  * user Key Bindings
+  * user File Settings
+* remove dependencies in order to make it self-contained
 
 ## Credits
 
