@@ -1,0 +1,40 @@
+{
+  "binary_file_patterns":
+  [
+    "*.scssc",
+    "*.sassc",
+    "*.png",
+    "*.gif",
+    "*.xls",
+    "*.jpeg"
+  ],
+  "color_scheme": "Packages/Color Scheme - Default/IR_Black.tmTheme",
+  "file_exclude_patterns":
+  [
+    "*.scssc",
+    "*.sassc",
+    ".DS_Store",
+    "*.xls"
+  ],
+  "folder_exclude_patterns":
+  [
+    "tmp",
+    ".git",
+    "log",
+    "solr",
+    "coverage",
+    "public/uploads",
+    "public/assets"
+  ],
+  "font_size": 16.0,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "word_wrap": true,
+  "wrap_width": 80,
+  "rulers": [80],
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}

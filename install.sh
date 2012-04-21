@@ -24,6 +24,9 @@ fi
 echo "Copying iTerm2 settings to ~/.dotfiles/iterm2..."
 cp -r $mydir/iterm2 $ryanb_dotfiles_dir
 
+echo "Copying Sublime Text 2 settings to ~/.dotfiles/sublime2..."
+cp -r $mydir/sublime2 $ryanb_dotfiles_dir
+
 echo "Creating new gitconfig.erb file for dotfiles..."
 cp $mydir/my_gitconfig.erb $ryanb_dotfiles_dir/gitconfig.erb
 
@@ -47,10 +50,6 @@ fi
 
 cd $ryanb_dotfiles_dir
 rake install
-
-echo 'open -a "Sublime Text 2" "$@"' > $mydir/sub
-chmod +x $mydir/sub
-mv $mydir/sub /usr/local/bin/sub
 
 echo ""
 echo "Done!"
