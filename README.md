@@ -14,6 +14,8 @@ Installation is very simple:
 
     git clone git://github.com/lubieniebieski/dotfiles.git
     cd dotfiles/
+    git submodule init
+    git submoudle update
     ./install.sh
 
 ## TODO
