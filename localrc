@@ -19,6 +19,18 @@ alias bea="bundle exec autotest"
 alias slime=/usr/local/bin/slime
 export EDITOR="slime"
 
+# Mysql (brew version)
+alias mysql.start="mysql.server start"
+alias mysql.stop="mysql.server stop"
+
+# Postgres (brew version)
+alias postgres.start="pg_ctl -D /usr/local/var/postgres -l logfile start"
+alias postgres.stop="pg_ctl -D /usr/local/var/postgres -l logfile stop"
+
+# Mongo (brew version)
+alias mongo.start="mongod --config /usr/local/etc/mongod.conf --fork --logpath /tmp/mongo.log"
+alias mongo.stop="killall mongod"
+
 # Ruby
 if echo $rvm_ruby_version | grep -q '1.9'; then
   export RUBYOPT='-r openssl'
